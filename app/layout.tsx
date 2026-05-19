@@ -5,6 +5,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import FloatingButtons from "@/components/FloatingButtons";
 import CookieBanner from "@/components/CookieBanner";
+import { LanguageProvider } from "@/lib/LanguageContext";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -144,11 +145,13 @@ export default function RootLayout({
         />
       </head>
       <body className="bg-black text-white antialiased">
-        <Navbar />
-        <main>{children}</main>
-        <Footer />
-        <FloatingButtons />
-        <CookieBanner />
+        <LanguageProvider>
+          <Navbar />
+          <main>{children}</main>
+          <Footer />
+          <FloatingButtons />
+          <CookieBanner />
+        </LanguageProvider>
       </body>
     </html>
   );

@@ -1,26 +1,17 @@
 "use client";
 
 import { Shield } from "lucide-react";
-
-const items = [
-  "SIN RECUPERACIÓN = SIN PAGO",
-  "INTERVENCIÓN EN MENOS DE 24H",
-  "PROCESO 100% LEGAL",
-  "COBERTURA EN TODA ESPAÑA",
-  "DISPONIBLES 24/7",
-  "98% TASA DE ÉXITO",
-  "500+ PROPIEDADES RECUPERADAS",
-  "EXPERTOS ANTI-OKUPA",
-];
+import { useLanguage } from "@/lib/LanguageContext";
 
 export default function TickerBanner() {
-  const doubled = [...items, ...items];
+  const { t } = useLanguage();
+  const items = [...t.ticker, ...t.ticker];
 
   return (
     <div className="relative bg-red-700 border-y border-red-600/50 py-3.5 overflow-hidden">
       <div className="ticker-wrapper">
         <div className="ticker-content">
-          {doubled.map((item, i) => (
+          {items.map((item, i) => (
             <span key={i} className="inline-flex items-center gap-4 px-6">
               <span
                 className="text-white font-bold text-sm tracking-[0.15em] uppercase whitespace-nowrap"
