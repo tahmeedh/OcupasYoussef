@@ -182,13 +182,13 @@ export default function FAQAccordion() {
           </p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <a
-              href="tel:+34900000000"
+              href="tel:+34600893591"
               className="bg-red-600 hover:bg-red-500 text-white font-bold px-8 py-3 rounded-full transition-all duration-200 hover:shadow-[0_0_20px_rgba(229,62,62,0.4)] text-sm"
             >
               Llamar Ahora
             </a>
             <a
-              href="https://wa.me/34900000000"
+              href="https://wa.me/34600893591"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-green-600 hover:bg-green-500 text-white font-bold px-8 py-3 rounded-full transition-all duration-200 text-sm"

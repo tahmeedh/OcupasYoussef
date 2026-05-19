@@ -22,7 +22,7 @@ export default function PrivacidadPage() {
             derechos digitales (LOPDGDD).
           </p>
           <h2 className="text-2xl font-bold text-white">Responsable del Tratamiento</h2>
-          <p>Youssef OK S.L. · CIF: B00000000 · info@youssefok.es · +34 900 000 000</p>
+          <p>Youssef OK S.L. · CIF: B00000000 · info@youssefok.es · +34 600 89 35 91</p>
           <h2 className="text-2xl font-bold text-white">Datos que Recogemos</h2>
           <p>
             Nombre, teléfono, email y descripción del caso, únicamente cuando nos los

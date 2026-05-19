@@ -9,9 +9,9 @@ const contactInfo = [
   {
     icon: Phone,
     title: "Teléfono / Emergencias",
-    value: "+34 900 000 000",
+    value: "+34 600 89 35 91",
     sub: "Disponible 24 horas al día",
-    href: "tel:+34900000000",
+    href: "tel:+34600893591",
     color: "red",
   },
   {
@@ -90,14 +90,14 @@ export default function ContactContent() {
             </p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
               <a
-                href="tel:+34900000000"
+                href="tel:+34600893591"
                 className="flex items-center justify-center gap-2 bg-red-600 hover:bg-red-500 text-white font-bold px-8 py-4 rounded-full transition-all duration-200 hover:shadow-[0_0_30px_rgba(229,62,62,0.5)] emergency-pulse text-lg"
               >
                 <Phone className="w-5 h-5" />
-                +34 900 000 000
+                +34 600 89 35 91
               </a>
               <a
-                href="https://wa.me/34900000000?text=Emergencia%20okupa"
+                href="https://wa.me/34600893591?text=Emergencia%20okupa"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center gap-2 bg-green-600 hover:bg-green-500 text-white font-bold px-8 py-4 rounded-full transition-all duration-200 text-lg"
@@ -202,7 +202,7 @@ export default function ContactContent() {
                   </h3>
                   <p className="text-gray-400 text-sm max-w-xs">
                     Un especialista se pondrá en contacto contigo en los próximos 30 minutos.
-                    Si es urgente, llama directamente al +34 900 000 000.
+                    Si es urgente, llama directamente al +34 600 89 35 91.
                   </p>
                 </div>
               ) : (

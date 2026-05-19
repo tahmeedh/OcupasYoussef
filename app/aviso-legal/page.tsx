@@ -26,7 +26,7 @@ export default function AvisoLegalPage() {
             <li><strong className="text-white">CIF:</strong> B00000000</li>
             <li><strong className="text-white">Domicilio:</strong> Madrid, España</li>
             <li><strong className="text-white">Email:</strong> info@youssefok.es</li>
-            <li><strong className="text-white">Teléfono:</strong> +34 900 000 000</li>
+            <li><strong className="text-white">Teléfono:</strong> +34 600 89 35 91</li>
           </ul>
           <h2 className="text-2xl font-bold text-white">Objeto</h2>
           <p>

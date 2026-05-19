@@ -150,7 +150,7 @@ export default function Navbar() {
                   EMERGENCIA 24/7
                 </Link>
                 <a
-                  href="https://wa.me/34900000000"
+                  href="https://wa.me/34600893591"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center justify-center gap-2 bg-green-600 text-white text-lg font-bold py-4 rounded-full"

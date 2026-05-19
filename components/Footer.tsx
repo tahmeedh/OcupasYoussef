@@ -41,11 +41,11 @@ export default function Footer() {
             </span>
           </div>
           <a
-            href="tel:+34900000000"
+            href="tel:+34600893591"
             className="text-red-400 hover:text-red-300 font-black text-xl tracking-wider transition-colors duration-200"
             style={{ fontFamily: "'Bebas Neue', Impact, sans-serif" }}
           >
-            +34 900 000 000
+            +34 600 89 35 91
           </a>
           <a
             href="/emergencia"
@@ -153,7 +153,7 @@ export default function Footer() {
             <ul className="space-y-4">
               <li>
                 <a
-                  href="tel:+34900000000"
+                  href="tel:+34600893591"
                   className="flex items-start gap-3 group"
                 >
                   <div className="w-8 h-8 bg-red-600/10 border border-red-600/20 rounded-lg flex items-center justify-center flex-shrink-0 group-hover:bg-red-600/20 transition-colors duration-200">
@@ -162,7 +162,7 @@ export default function Footer() {
                   <div>
                     <div className="text-gray-500 text-xs mb-0.5">Teléfono / Emergencias</div>
                     <div className="text-white text-sm font-semibold group-hover:text-red-400 transition-colors duration-200">
-                      +34 900 000 000
+                      +34 600 89 35 91
                     </div>
                   </div>
                 </a>
@@ -198,7 +198,7 @@ export default function Footer() {
 
             <div className="mt-6 p-4 bg-green-900/20 border border-green-700/30 rounded-xl">
               <a
-                href="https://wa.me/34900000000"
+                href="https://wa.me/34600893591"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-3 text-green-400 hover:text-green-300 transition-colors duration-200"

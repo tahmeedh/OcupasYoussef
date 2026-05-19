@@ -131,7 +131,7 @@ export default function EmergencyPage() {
           className="flex flex-col sm:flex-row gap-4 justify-center mb-12"
         >
           <a
-            href="tel:+34900000000"
+            href="tel:+34600893591"
             className="flex items-center justify-center gap-4 bg-red-600 hover:bg-red-500 text-white px-10 py-6 rounded-2xl transition-all duration-200 hover:shadow-[0_0_60px_rgba(229,62,62,0.6)] hover:scale-105 emergency-pulse group"
           >
             <div className="w-10 h-10 bg-white/20 rounded-full flex items-center justify-center">
@@ -143,13 +143,13 @@ export default function EmergencyPage() {
                 className="text-2xl font-black"
                 style={{ fontFamily: "'Bebas Neue', Impact, sans-serif", letterSpacing: "0.05em" }}
               >
-                +34 900 000 000
+                +34 600 89 35 91
               </div>
             </div>
           </a>
 
           <a
-            href="https://wa.me/34900000000?text=EMERGENCIA%3A%20Necesito%20intervención%20urgente%20anti-okupa"
+            href="https://wa.me/34600893591?text=EMERGENCIA%3A%20Necesito%20intervención%20urgente%20anti-okupa"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center justify-center gap-4 bg-green-600 hover:bg-green-500 text-white px-10 py-6 rounded-2xl transition-all duration-200 hover:shadow-[0_0_40px_rgba(34,197,94,0.4)] hover:scale-105"
@@ -228,8 +228,8 @@ export default function EmergencyPage() {
               <p className="text-gray-400 text-sm">
                 Un especialista te llamará en los próximos 15 minutos.
                 Si es muy urgente, llama directamente al{" "}
-                <a href="tel:+34900000000" className="text-red-400 font-bold">
-                  +34 900 000 000
+                <a href="tel:+34600893591" className="text-red-400 font-bold">
+                  +34 600 89 35 91
                 </a>
               </p>
             </div>

@@ -59,7 +59,7 @@ export default function CtaBanner() {
           </div>
 
           <p className="text-gray-600 text-sm mt-8">
-            📞 +34 900 000 000 · Disponible 24 horas · 7 días a la semana
+            📞 +34 600 89 35 91 · Disponible 24 horas · 7 días a la semana
           </p>
         </motion.div>
       </div>
